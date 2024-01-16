@@ -1,0 +1,23 @@
+git commit -am “Commit 2” 
+(“-am” committa i file che sono stati aggiunti almeno una volta alla staging area, quindi non serve rifare git add) 
+
+git log --oneline
+(verifica lo stato dei commit)
+
+git branch nomebranch
+(crea un nuovo branch)
+
+git checkout nomebranch
+(trasferimento ad un’altra branch)
+
+git log
+(verifica a cosa punta head, Quindi facendo git checkout di fatto spostiamo il puntatore HEAD)
+
+git merge nomebranch
+(effettua il merge con il branch indicato)
+
+git log --oneline --graph --all
+(crea una rappresentazione grafica dei commit)
+
+git checkout id_del_commit
+(entra in deatached head all’interno di un commit già fatto)
